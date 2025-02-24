@@ -51,7 +51,7 @@ const HeroSection = () => {
                     Tomorrow.
                 </h1>
 
-                <h3 className="mb-4  px-4 text-sm md:text-lg md:w-3/4 leading-[2rem] !font-thin text-gray-900 dark:text-white">
+                <h3 className="mb-4  px-4 text-sm md:text-lg md:px-16 leading-[2rem] !font-thin text-gray-900 dark:text-white">
                     One Global Info Systems has over 30 years of IT consulting
                     expertise, delivering cuttinggg-edge enterprise solutions in
                     AI, cloud, RPA, and ERP. Their goal is to drive digital

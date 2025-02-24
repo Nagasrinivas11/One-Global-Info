@@ -4,7 +4,7 @@ const AboutUs = () => {
     return (
         <div
             id="abtt"
-            className="bg-white h-[88vh]  flex justify-center py-16 px-4 sm:px-6 lg:px-8"
+            className="bg-white h-[88vh] md:mt-20  flex justify-center py-16 px-4 sm:px-6 lg:px-8"
         >
             <div className="max-w-6xl mx-auto ">
                 <h2 className="text-4xl text-center font-bold text-gray-900 sm:text-5xl">
