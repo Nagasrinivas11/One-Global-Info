@@ -32,7 +32,7 @@ export default function ClientLayout({
                         </h2>
                         <Read />
                     </div>
-                    <div className="flex md:h-[80vh] mt-4 md:mt-44 flex-col items-center justify-center">
+                    <div className="flex md:h-[80vh] mt-4 md:mt-64 flex-col items-center justify-center">
                         <h2 className="text-3xl md:text-5xl font-bold text-gray-900 mb-2">
                             Our Approach
                         </h2>
