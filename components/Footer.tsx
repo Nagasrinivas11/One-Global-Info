@@ -35,7 +35,7 @@ export default function Footer() {
                         </p>
                         <div className="flex space-x-4">
                             <a
-                                href="https://www.linkedin.com/company/brynztech/"
+                                href= "#"
                                 className="text-gray-400 hover:text-gray-700"
                                 target="_blank"
                             >

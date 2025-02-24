@@ -103,7 +103,7 @@ const ContactSection = () => {
 
                                 <Link
                                     className="mx-1.5 dark:hover:text-blue-400 text-gray-400 transition-colors duration-300 transform hover:text-blue-500"
-                                    href="https://www.linkedin.com/company/brynztech/"
+                                    href="#"
                                 >
                                     <svg
                                         className="w-8 h-8"
