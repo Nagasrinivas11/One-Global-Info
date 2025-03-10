@@ -42,7 +42,7 @@ const Steps = () => {
                     >
                         {/* Step Number */}
                         <div className="relative top-4 flex flex-col items-center">
-                            <div className="w-16 h-16 rounded-full bg-gradient-to-r from-[#303d6c] to-[#2945a9] shadow-xl flex items-center justify-center text-white text-2xl font-bold transform transition-all group-hover:scale-110">
+                            <div className="w-16 h-16 rounded-full bg-gradient-to-r from-[#0D465A] to-[#063344] shadow-xl flex items-center justify-center text-white text-2xl font-bold transform transition-all group-hover:scale-110">
                                 {index + 1}
                             </div>
                             {index !== steps.length - 1 && (
@@ -67,9 +67,9 @@ const Steps = () => {
                                 delay: index * 0.3,
                                 ease: 'easeOut'
                             }}
-                            className="flex-1 bg-white p-6 rounded-lg shadow-xl border-l-4 border-[#303d6c] group-hover:shadow-2xl transform transition-all group-hover:scale-105"
+                            className="flex-1 bg-white p-6 rounded-lg shadow-xl border-l-4 border-[#0D465A] group-hover:shadow-2xl transform transition-all group-hover:scale-105"
                         >
-                            <h3 className="text-2xl font-bold text-[#303d6c] mb-2">
+                            <h3 className="text-2xl font-bold text-[#0D465A] mb-2">
                                 {step.title}
                             </h3>
                             <p className="text-gray-700 font-medium">

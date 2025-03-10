@@ -27,14 +27,14 @@ const Navbar = () => {
         }
     };
     return (
-        <nav className="bg-white h-20  ">
-            <div className="max-w-screen-2xl px-4  flex flex-wrap items-center justify-between mx-auto py-2">
+        <nav className="  ">
+            <div className="max-w-screen-2xl px-20  flex flex-wrap items-center justify-between mx-auto py-2">
                 <Link href="/" passHref>
                     <Image
-                        src="/d_logo.jpeg"
+                        src="/d_logo.png"
                         alt="logo"
-                        height={100}
-                        width={100}
+                        height={180}
+                        width={160}
                     />
                 </Link>
                 <button
@@ -67,7 +67,7 @@ const Navbar = () => {
                     } w-full md:block md:w-auto md:px-12 z-50`}
                     id="navbar-dropdown"
                 >
-                    <ul className="flex flex-col b items-center font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                    <ul className="flex flex-col b items-center font-medium p-4 md:p-0 mt-4 border  rounded-lg  md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0  dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
                         <li>
                             <Link
                                 href="/"

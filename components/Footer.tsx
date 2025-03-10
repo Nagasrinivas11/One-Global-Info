@@ -20,36 +20,36 @@ export default function Footer() {
         }
     };
     return (
-        <footer className="text-black mx-auto  py-12 w-[98vw]">
+        <footer className="!text-white mx-auto bg-[#0D465A]  py-12 w-[98vw]">
             <div className="px-6  mx-auto  ">
                 <div className="grid w-full grid-cols-1 md:grid-cols-3 gap-8">
                     <div className="space-y-1">
                         <Image
-                            src="/d_logo.jpeg"
+                            src="/d_logo1.jpeg"
                             alt="logo"
                             height={100}
                             width={100}
                         />
-                        <p className="text-gray-400">
+                        <p className="text-gray-200">
                             Let&apos;s build your career
                         </p>
                         <div className="flex space-x-4">
                             <a
                                 href= "#"
-                                className="text-gray-400 hover:text-gray-700"
+                                className="text-gray-300 hover:text-gray-50"
                                 target="_blank"
                             >
                                 <IconBrandLinkedin />
                             </a>
                             <a
                                 href="#"
-                                className="text-gray-400 hover:text-gray-700"
-                            >
+                                className="text-gray-300 hover:text-gray-50"                            >
                                 <IconBrandTwitter />
                             </a>
                             <a
                                 href="#"
-                                className="text-gray-400 hover:text-gray-700"
+                                className="text-gray-300 hover:text-gray-50"
+
                             >
                                 <IconBrandInstagram />
                             </a>
@@ -66,7 +66,7 @@ export default function Footer() {
                                     <li>
                                         <Link
                                             href="#"
-                                            className="text-gray-400 hover:text-gray-700"
+                                            className="text-gray-200 hover:text-gray-400"
                                         >
                                             Home
                                         </Link>
@@ -75,7 +75,7 @@ export default function Footer() {
                                         <button
                                             type="button"
                                             onClick={scrollToAbout}
-                                            className="text-gray-400 hover:text-gray-700"
+                                            className="text-gray-200 hover:text-gray-400"
                                         >
                                             About Us
                                         </button>
@@ -84,7 +84,7 @@ export default function Footer() {
                                         <button
                                             type="button"
                                             onClick={scrollToCar}
-                                            className="text-gray-400 hover:text-gray-700"
+                                            className="text-gray-200 hover:text-gray-400"
                                         >
                                             Careers
                                         </button>
@@ -99,7 +99,7 @@ export default function Footer() {
                         <h4 className="text-lg font-semibold">
                             Subscribe to our newsletter
                         </h4>
-                        <p className="text-gray-400">
+                        <p className="text-gray-300">
                             Stay updated with the latest news and updates.
                         </p>
                         <form className="flex">
@@ -110,7 +110,7 @@ export default function Footer() {
                             />
                             <button
                                 type="submit"
-                                className="bg-[#303d6c] text-white px-4 py-2 rounded-r-md hover:bg-[#262f59] focus:outline-none focus:ring-2 focus:ring-blue-500"
+                                className="bg-black text-white px-4 py-2 rounded-r-md hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500"
                             >
                                 Subscribe
                             </button>
@@ -120,7 +120,7 @@ export default function Footer() {
 
                 {/* Bottom Section */}
                 <div className="border-t border-gray-800 mt-8 pt-8 text-center md:text-left">
-                    <p className="text-gray-700">
+                    <p className="text-gray-400">
                         &copy; {new Date().getFullYear()} ONE GLOBAL. All rights
                         reserved.
                     </p>

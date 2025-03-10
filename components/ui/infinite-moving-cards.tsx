@@ -103,11 +103,10 @@ export const InfiniteMovingCards = ({
                         <Image
                             src={item.url}
                             alt={item.name}
-                            height={32}
-                            width={32}
-                            className="rounded-full border-2   border-gray-300 h-8 w-8 "
+                            height={40}
+                            width={200}
+                            className="rounded-md   h-20 "
                         />
-                        {item.name}
                     </p>
                 ))}
             </ul>

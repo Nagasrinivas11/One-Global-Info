@@ -4,13 +4,13 @@ const AboutUs = () => {
     return (
         <div
             id="abtt"
-            className="bg-white h-[88vh] md:mt-20  flex justify-center py-16 px-4 sm:px-6 lg:px-8"
+            className="bg-[#0E465A] h-[88vh] md:mt-20  flex justify-center py-16 px-4 sm:px-6 lg:px-8"
         >
             <div className="max-w-6xl mx-auto ">
-                <h2 className="text-4xl text-center font-bold text-gray-900 sm:text-5xl">
+                <h2 className="text-4xl text-center font-bold text-white sm:text-5xl">
                     About Us
                 </h2>
-                <div className="mt-8 space-y-6 text-gray-600">
+                <div className="mt-8 space-y-6 text-gray-200">
                     <p className="text-lg leading-relaxed">
                         One Global is a customer-centric transformational IT
                         solutions and staffing partner. When it comes to
@@ -33,7 +33,7 @@ const AboutUs = () => {
                         relationships to understand and deliver customized
                         solutions that exceed expectations.
                     </p>
-                    <p className="font-bold leading-relaxed text-lg text-black">
+                    <p className="font-bold leading-relaxed text-lg text-white">
                         No matter the size of the business, we accommodate your
                         needs, schedule, and budget.
                     </p>

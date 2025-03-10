@@ -2,6 +2,7 @@
 import Link from 'next/link';
 import { ChevronDown, GiftIcon } from 'lucide-react';
 import { useEffect, useState } from 'react';
+import { InfiniteMovingCardsDemo } from './Infinite';
 const HeroSection = () => {
     const [isFlexApplied, setIsFlexApplied] = useState(true);
     const scrollToTabs = () => {
@@ -35,23 +36,23 @@ const HeroSection = () => {
 
     return (
         <div
-            className="w-full  relative   bg-white dark:bg-black dark:bg-dot-white/[0.2] bg-dot-black/[0.2]"
-            style={{ minHeight: 'calc(98vh - 80px)' }}
+            
+            className="w-full "
         >
-            <div className="absolute inset-0 flex items-center justify-center pointer-events-none dark:bg-black bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
+            {/* <div className="absolute inset-0 flex items-center justify-center pointer-events-none dark:bg-black bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div> */}
             <div
-                className={`relative   z-8  py-2 mx-auto text-center mb-8 md:mb-0   md:py-16 h-screen md:h-[98dvh] ${
+                className={`   z-8  py-2 mx-auto text-center mb-8 md:mb-0   md:py-4 h-screen md:h-[82dvh] ${
                     isFlexApplied
                         ? 'lg:flex lg:flex-col lg:items-center lg:justify-center'
                         : ''
                 }`}
             >
-                <h1 className="mb-6 mt-6 text-3xl sm:text-4xl md:text-5xl lg:text-5xl xl:text-7xl font-extrabold text-[#303d6c] dark:text-gray-400 flex flex-col gap-4 leading-tight">
+                <h1 className="mb-6 mt-6 text-3xl sm:text-4xl md:text-6xl  font-extrabold text-[#0E465A] dark:text-gray-400 flex flex-col gap-4 leading-tight">
                     Advanced IT Solutions Today <br /> Enduring Partnerships for
                     Tomorrow.
                 </h1>
 
-                <h3 className="mb-4  px-4 text-sm md:text-lg md:px-16 leading-[2rem] !font-thin text-gray-900 dark:text-white">
+                <h3 className="mb-4  px-4 text-sm md:text-lg md:px-16 leading-[2rem] !font-thin ">
                     One Global Info Systems has over 30 years of IT consulting
                     expertise, delivering cuttinggg-edge enterprise solutions in
                     AI, cloud, RPA, and ERP. Their goal is to drive digital
@@ -86,6 +87,9 @@ const HeroSection = () => {
                         <GiftIcon className="pr-2 " /> What We Offer
                         <ChevronDown className="" />
                     </button>
+                </div>
+                <div className="my-2">
+                    <InfiniteMovingCardsDemo />
                 </div>
             </div>
         </div>
